@@ -1,0 +1,289 @@
+
+    /* General Styling */
+    body {
+        font-family: 'Poppins', sans-serif;
+        color: #E0F2F6; /* Brighter light cyan for general text for excellent visibility */
+    }
+
+    /* Glassmorphism Effect for containers */
+    .glass-panel {
+        background: rgba(255, 255, 255, 0.08); /* Slightly more transparent than before */
+        border-radius: 18px; /* More rounded */
+        box-shadow: 0 8px 45px rgba(0, 0, 0, 0.4); /* Stronger, deeper shadow for prominent effect */
+        backdrop-filter: blur(14px); /* Increased blur for a very clear glass effect */
+        -webkit-backdrop-filter: blur(14px);
+        border: 1px solid rgba(255, 255, 255, 0.15); /* Subtler border */
+        padding: 30px; /* More padding inside panels */
+        margin-bottom: 30px; /* More space between panels */
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+
+    .glass-panel:hover {
+        transform: translateY(-8px); /* More pronounced lift on hover */
+        box-shadow: 0 12px 50px rgba(0, 0, 0, 0.6); /* Enhanced shadow on hover */
+    }
+
+    /* Glowing Headers */
+    h1, h2, h3, .stMarkdown strong {
+        color: #FFFFFF; /* Pure white for glowing text base for maximum visibility */
+        text-shadow: 0 0 12px rgba(255, 120, 200, 0.8), /* Soft Pink */
+                     0 0 25px rgba(160, 100, 250, 0.7), /* Lavender Purple */
+                     0 0 40px rgba(0, 200, 255, 0.6); /* Bright Cyan */
+        animation: glow 2.5s ease-in-out infinite alternate; /* Slower, more elegant glow */
+    }
+
+    @keyframes glow {
+        from {
+            text-shadow: 0 0 12px rgba(255, 120, 200, 0.8),
+                         0 0 25px rgba(160, 100, 250, 0.7),
+                         0 0 40px rgba(0, 200, 255, 0.6);
+        }
+        to {
+            text-shadow: 0 0 18px rgba(255, 120, 200, 1), /* Stronger glow */
+                         0 0 30px rgba(160, 100, 250, 0.9),
+                         0 0 50px rgba(0, 200, 255, 0.8),
+                         0 0 60px rgba(255, 255, 255, 0.4); /* Brighter white halo at peak glow */
+        }
+    }
+
+    /* Button Styling with Gradients & Hover Effects */
+    .stButton>button {
+        background: linear-gradient(45deg, #FF6F6F, #E65C7C, #A85EE8, #4FC3F7); /* Refined gradient: warmer red, purplish-pink, vibrant purple, bright blue */
+        color: white;
+        border: none;
+        border-radius: 15px; /* Even more rounded */
+        padding: 14px 30px; /* Larger padding */
+        font-size: 20px; /* Larger font */
+        font-weight: bold;
+        transition: all 0.3s ease;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5); /* Deeper shadow */
+        letter-spacing: 0.8px; /* More distinct letter spacing */
+    }
+
+    .stButton>button:hover {
+        transform: translateY(-5px); /* More pronounced lift */
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7); /* Even deeper shadow on hover */
+        background: linear-gradient(45deg, #FF8D8D, #F1829D, #C08DEE, #7DD8FF); /* Lighter, more vibrant on hover */
+    }
+
+    /* Slider Styling */
+    .stSlider > div > div > div > div {
+        background: linear-gradient(90deg, #FF6F6F, #A85EE8); /* Gradient for slider track */
+        height: 10px; /* Thicker track */
+        border-radius: 5px;
+    }
+    .stSlider .st-fx { /* Slider thumb */
+        background-color: #4FC3F7; /* Bright blue for thumb */
+        border: 4px solid #FFFFFF; /* Thicker white border */
+        width: 28px; /* Larger thumb */
+        height: 28px;
+        box-shadow: 0 0 15px rgba(0, 191, 255, 0.8); /* Stronger glow on thumb */
+    }
+    .stSlider label { /* Slider label color */
+        color: #E0F2F6 !important; /* Ensure label is highly visible */
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+    .stSlider .st-bq { /* Slider value text color */
+        color: #FFFFFF !important; /* Ensure value is pure white and visible */
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+
+
+    /* Selectbox Styling */
+    .stSelectbox > div > div {
+        background-color: rgba(255, 255, 255, 0.07); /* Very slightly more transparent */
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 15px; /* More rounded */
+        color: #E0F2F6; /* Brighter text color */
+        padding: 10px 15px; /* More padding */
+    }
+    .stSelectbox > div > div > div {
+        color: #E0F2F6; /* Text color inside selectbox for current selection */
+        font-weight: 500;
+    }
+    .stSelectbox .css-1ciek12 { /* Dropdown arrow color */
+        color: #A85EE8; /* Vibrant purple arrow for accent */
+        font-size: 1.3em;
+    }
+    .stSelectbox label { /* Selectbox label color */
+        color: #E0F2F6 !important; /* Ensure label is highly visible */
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+    /* Options in dropdown (this targets the options list, which Streamlit creates outside the main app div) */
+    div[data-baseweb="popover"] > div > div {
+        background-color: rgba(255, 255, 255, 0.15) !important; /* Background for dropdown options list */
+        backdrop-filter: blur(10px) !important;
+        border: 1px solid rgba(255, 255, 255, 0.2) !important;
+        border-radius: 10px !important;
+    }
+    div[data-baseweb="popover"] div[role="option"] {
+        color: #E0F2F6 !important; /* Text color for options */
+        padding: 10px 15px !important;
+    }
+    div[data-baseweb="popover"] div[role="option"]:hover {
+        background-color: rgba(255, 255, 255, 0.25) !important; /* Hover for options */
+    }
+
+
+    /* Number Input Styling */
+    .stNumberInput > div > div {
+        background-color: rgba(255, 255, 255, 0.07);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 15px;
+        color: #E0F2F6;
+        padding: 10px 15px;
+    }
+    .stNumberInput input {
+        color: #E0F2F6; /* Ensure input text is highly visible */
+        background-color: transparent; /* Make input field background transparent */
+        font-weight: 500;
+    }
+    .stNumberInput label { /* Number input label color */
+        color: #E0F2F6 !important; /* Ensure label is highly visible */
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+
+    /* Recommendation Card Styling */
+    .recommendation-card {
+        background: rgba(255, 255, 255, 0.12); /* Slightly less transparent */
+        border-radius: 18px; /* More rounded */
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        padding: 22px; /* More padding */
+        margin-bottom: 18px; /* More space */
+        display: flex;
+        align-items: center;
+        transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.25); /* Slightly stronger border */
+    }
+
+    .recommendation-card:hover {
+        background: rgba(255, 255, 255, 0.25); /* More opaque on hover */
+        transform: scale(1.04); /* More pronounced scale */
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+        border-color: rgba(0, 200, 255, 0.8); /* Brighter blue glow on hover */
+    }
+
+    .recommendation-card img {
+        width: 100px; /* Larger poster */
+        height: 150px;
+        border-radius: 12px;
+        margin-right: 25px; /* More space */
+        object-fit: cover;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+        transition: transform 0.2s ease;
+    }
+    .recommendation-card img:hover {
+        transform: scale(1.06); /* Image zoom on hover */
+    }
+
+
+    .recommendation-card-content h4 {
+        margin: 0;
+        color: #ADD8E6; /* Light blue for movie titles - good contrast */
+        font-size: 1.4em; /* Larger title font */
+        text-shadow: none; /* Disable glowing for card titles */
+        line-height: 1.3;
+        font-weight: bold;
+    }
+
+    .recommendation-card-content p {
+        margin: 10px 0 0; /* More space below title */
+        color: #FFC0CB; /* Light pink for score - good contrast */
+        font-size: 1.1em; /* Slightly larger score font */
+        font-weight: bold;
+    }
+
+    /* Search History Panel */
+    .search-history-panel {
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 20px; /* More rounded */
+        box-shadow: 0 6px 40px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        padding: 30px;
+        margin-top: 45px; /* More space above */
+    }
+
+    .search-history-panel ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .search-history-panel li {
+        background-color: rgba(0, 0, 0, 0.3); /* Darker background for history items */
+        padding: 12px 18px; /* More padding */
+        margin-bottom: 10px; /* More space */
+        border-radius: 12px;
+        color: #B0E0E6; /* Powder blue for history text - good contrast */
+        font-size: 1em; /* Slightly larger font */
+        transition: background-color 0.2s ease, transform 0.1s ease;
+        line-height: 1.4; /* Better line spacing for readability */
+    }
+
+    .search-history-panel li:hover {
+        background-color: rgba(0, 0, 0, 0.5); /* Even darker on hover */
+        transform: translateX(8px); /* More pronounced slide on hover */
+    }
+
+    /* Subtle entrance animations */
+    .stMarkdown, .stPlotlyChart, .glass-panel {
+        animation: fadeIn 1.2s ease-out forwards; /* Slightly slower for elegance */
+        opacity: 0; /* Start invisible */
+    }
+
+    /* Animation delays for staggered effect */
+    .glass-panel:nth-of-type(1) { animation-delay: 0.2s; }
+    .glass-panel:nth-of-type(2) { animation-delay: 0.4s; }
+    .glass-panel:nth-of-type(3) { animation-delay: 0.6s; }
+    .stButton>button { animation-delay: 0.8s; } /* Delay for the button */
+    /* Add more delays for subsequent panels/charts if needed for a longer flow */
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(40px); } /* More pronounced starting position */
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .glass-panel {
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .stButton>button {
+            width: 100%;
+            margin-bottom: 18px;
+            font-size: 18px;
+            padding: 12px 20px;
+        }
+        .recommendation-card {
+            flex-direction: column;
+            text-align: center;
+            padding: 18px;
+        }
+        .recommendation-card img {
+            margin-right: 0;
+            margin-bottom: 18px;
+            width: 80px;
+            height: 120px;
+        }
+        .recommendation-card-content h4 {
+            font-size: 1.2em;
+        }
+        .recommendation-card-content p {
+            font-size: 1em;
+        }
+        .search-history-panel {
+            padding: 20px;
+        }
+        .search-history-panel li {
+            padding: 10px 15px;
+            font-size: 0.9em;
+        }
+    }
+    
