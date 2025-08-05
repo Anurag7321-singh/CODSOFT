@@ -28,30 +28,10 @@ It also offers both **CLI (terminal-based)** and **Streamlit (GUI)** versions fo
 
 ---
 
-## 🚀 Run Instructions
-###CLI Version:
-```bash
-cd "Tic Tac Toe AI"
-pip install -r requirements.txt
-python tic_tac_toe.py
 
-### Streamlit  Version:
-```bash
-cd "Tic Tac Toe AI"
-pip install -r requirements.txt
-streamlit run ttt_app.py
-
-## ✨Future Improvements
-- Add difficulty levels for AI
-- Highlight winning moves in GUI
-- Online multiplayer support
-- AI decision visualization
-
-## ✨Future Improvements🙌 Credits
+🙌 Credits
 - Developed by: Anurag Pratap Singh
-- Internship: CODSOFT
-- Technologies Used: Python, Streamlit, Numpy
-- Special Thanks: OpenAI ChatGPT (for guidance in project structuring and optimization)
+
 
 
 
