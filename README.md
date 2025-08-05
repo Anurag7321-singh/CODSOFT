@@ -44,6 +44,18 @@ A content-based movie recommender that suggests similar movies based on your pre
 - User-friendly input and clear output
 - Built with scikit-learn vectorization techniques
 ---
+---
+
+##  Tic-Tac-Toe AI
+An unbeatable AI opponent using the **Minimax algorithm** (with Alpha-Beta pruning) plus a multiplayer mode.  
+Includes both CLI and Streamlit versions.
+
+**Features:**
+- Human vs AI gameplay  
+- Multiplayer mode (Human vs Human)  
+- Win/Draw detection  
+- CLI & Streamlit GUI  
+------
 
 ## 📦 Deliverables
 
