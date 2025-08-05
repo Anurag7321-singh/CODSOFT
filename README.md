@@ -8,18 +8,6 @@ Welcome to my **CodSoft AI Internship** repository! This repo showcases my solut
 
 The **CodSoft AI Internship** is a hands-on program designed to strengthen AI fundamentals by working on real-world projects, including chatbot development and recommendation systems.
 
----
-
-## 📁 Project Structure
-CodSoft-AI-Internship/
-│
-├── AI Chat Bot/
-│ └── (rule-based chatbot project)
-│
-└── Recommendation System/
-└── movie_rec/
-└── (movie recommendation system project)
-
 
 ---
 
