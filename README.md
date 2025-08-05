@@ -35,7 +35,7 @@ A simple, rule-based chatbot that can understand and respond to user queries usi
 
 ## 🎬 Recommendation System
 
-### Movie Recommendation System (`Recommendation System/movie_rec/`)
+### Movie Recommendation System (`Recommendation System/Movie Recommendation System/`)
 
 A content-based movie recommender that suggests similar movies based on your preferences.
 
