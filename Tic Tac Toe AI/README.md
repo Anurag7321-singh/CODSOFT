@@ -29,8 +29,7 @@ It also offers both **CLI (terminal-based)** and **Streamlit (GUI)** versions fo
 ---
 
 ## 🚀 Run Instructions
-
-### CLI Version:
+###CLI Version:
 ```bash
 cd "Tic Tac Toe AI"
 pip install -r requirements.txt
