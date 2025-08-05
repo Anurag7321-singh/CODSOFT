@@ -1,7 +1,11 @@
-# 🧠 Tic-Tac-Toe AI – Unbeatable AI Opponent with Minimax
+# 🧠 Tic-Tac-Toe AI – Unbeatable AI Opponent with Minimax + Multiplayer Mode
 
 ## 📖 Description
-This project implements a **Tic-Tac-Toe AI** using the **Minimax algorithm** (with Alpha-Beta pruning). It offers both a **CLI version** and a **Streamlit GUI version** for a better user experience.
+This project implements a **Tic-Tac-Toe game** in Python with two modes:
+1. **Human vs AI** – Powered by the Minimax algorithm (with Alpha-Beta pruning), making the AI unbeatable.
+2. **Multiplayer Mode** – Play against another human locally.
+
+It also offers both **CLI (terminal-based)** and **Streamlit (GUI)** versions for an interactive experience.
 
 ---
 
@@ -10,16 +14,17 @@ This project implements a **Tic-Tac-Toe AI** using the **Minimax algorithm** (wi
 - **Libraries:**
   - `numpy`
   - `streamlit` (for GUI)
-- **Algorithm:** Minimax with Alpha-Beta pruning
+- **Algorithm (AI mode):** Minimax with Alpha-Beta pruning
 
 ---
 
 ## ✨ Features
 - Human vs AI gameplay
-- Unbeatable AI using Minimax
+- Multiplayer mode (Human vs Human)
+- Unbeatable AI with Minimax algorithm
 - CLI and Streamlit versions
 - Detects Win, Draw, and Loss states
-- Simple, clean, and educational code
+- Simple, clean, and beginner-friendly code
 
 ---
 
@@ -30,3 +35,23 @@ This project implements a **Tic-Tac-Toe AI** using the **Minimax algorithm** (wi
 cd "Tic Tac Toe AI"
 pip install -r requirements.txt
 python tic_tac_toe.py
+
+### Streamlit Version:
+cd "Tic Tac Toe AI"
+pip install -r requirements.txt
+streamlit run tic_tac_toe_streamlit.py
+
+---
+🔮 Future Improvements
+Add difficulty levels for AI
+Highlight winning moves in GUI
+Online multiplayer support
+AI decision visualization
+
+🙌 Credits
+Developed by: Anurag Pratap Singh
+Internship: CODSOFT
+Technologies Used: Python, Streamlit, Numpy
+Special Thanks: OpenAI ChatGPT (for guidance in project structuring and optimization)
+
+
