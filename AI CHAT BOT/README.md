@@ -30,25 +30,6 @@ This project responds to user queries using **predefined intents (JSON)**, **reg
   - `datetime`
 - **Version Control:** Git & GitHub
 
----
-
-## 📂 Project Structure
-AI_CHAT_BOT/
-│
-├── bot_app.py           # Main Streamlit app
-├── chatbot.py           # Chatbot logic
-├── intents.json         # Chatbot intents and responses
-├── requirements.txt     # Required dependencies
-├── botim.jpg            # Background image
-└── __pycache__/         # Cache (ignored in .gitignore)
-
----
-🔮 Future Improvements
---Add voice input and speech output
---API integration (Weather, Wikipedia, etc.)
---Context-aware conversation memory
---Enhanced UI with avatars
-
 ----
 🏆 Credits
 Developed by Anurag Pratap Singh as part of the CODSOFT internship.
