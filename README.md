@@ -55,6 +55,24 @@ Includes both CLI and Streamlit versions.
 - Multiplayer mode (Human vs Human)  
 - Win/Draw detection  
 - CLI & Streamlit GUI  
+
+---
+**4️⃣ Face Detection and Recognition**  
+An AI application that detects and recognizes faces from uploaded images or live webcam using pre-trained models. It logs match scores, saves detection history, and provides a smooth browser interface using Streamlit.  
+
+**Tools & Technologies:** Python, OpenCV, face_recognition, Haar Cascades, Streamlit  
+
+**Features:**  
+- Real-time face detection via webcam  
+- Upload image support with instant face recognition  
+- Recognition based on known faces stored in `known_faces/` folder  
+- Match score logging (e.g., “Detected: anurag (Match Score: 0.42)”)  
+- Detection logs saved in `detection_log.txt`  
+- Tech-themed Streamlit UI with blue background (`faceimg.jpeg`)  
+- Supports multiple known users and continuous matching  
+- Easy-to-use interface with reset functionality
+
+
 ------
 
 ## 📦 Deliverables
