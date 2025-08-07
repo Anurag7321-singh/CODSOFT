@@ -1,0 +1,11 @@
+Detected: Anurag Pratap SIngh (Match Score: 0.55) at 2025-08-07 18:40:35.629167
+Detected: Anurag Pratap SIngh (Match Score: 0.55) at 2025-08-07 18:40:37.526712
+Detected: Anurag Pratap SIngh (Match Score: 0.55) at 2025-08-07 18:40:39.423590
+Detected: Anurag_Pratap_Singh (Match Score: 0.56) at 2025-08-07 18:40:41.303273
+Detected: Anurag_Pratap_Singh (Match Score: 0.57) at 2025-08-07 18:40:43.182698
+Detected: Anurag Pratap SIngh (Match Score: 0.58) at 2025-08-07 18:40:45.067236
+Detected: Anurag Pratap SIngh (Match Score: 0.59) at 2025-08-07 18:40:46.962091
+Detected: Anurag Pratap SIngh (Match Score: 0.57) at 2025-08-07 18:40:48.851130
+Detected: Anurag Pratap SIngh (Match Score: 0.58) at 2025-08-07 18:40:50.806492
+Detected: Anurag Pratap SIngh (Match Score: 0.58) at 2025-08-07 18:40:52.678822
+Detected: Anurag Pratap SIngh (Match Score: 0.59) at 2025-08-07 18:40:54.574735
