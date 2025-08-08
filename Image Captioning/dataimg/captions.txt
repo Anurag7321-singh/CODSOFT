@@ -1,0 +1,4 @@
+Dog.jpg	A dog is sitting on the grass.
+Car.jpg	A brown dog is looking at the camera.
+Anurag.jpg	A road with construction machinery.
+Heavy.jpg	Heavy equipment parked at a construction site.
