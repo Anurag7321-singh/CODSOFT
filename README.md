@@ -1,98 +1,71 @@
-# 🤖 CodSoft AI Internship Projects 🚀
+# 🤖 CodSoft AI Internship Projects
 
-Welcome to my **CodSoft AI Internship** repository! This repo showcases my solutions to the tasks assigned during the internship, focusing on practical Artificial Intelligence and Machine Learning applications.
-
----
-
-## 📝 About the Internship
-
-The **CodSoft AI Internship** is a hands-on program designed to strengthen AI fundamentals by working on real-world projects, including chatbot development and recommendation systems.
-
+This repository includes the projects I completed as part of the **CodSoft AI Internship (August 2025 Batch)**.  
+Each project demonstrates practical use of Artificial Intelligence using Python, machine learning, deep learning, and Streamlit.
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Project Topics, Descriptions & Technologies
 
-- **Python** (core language)
-- **NLTK** (natural language processing for chatbot)
-- **scikit-learn** (machine learning algorithms)
-- **Pandas** & **NumPy** (data handling)
-- **Streamlit** (for interactive apps and demos)
+**1️⃣ AI Chat Bot**  
+A rule-based chatbot that responds to user inputs using if-else logic and pattern matching.  
+**Technologies:** Python, Regex, Conditional Logic
 
----
+**2️⃣ Movie Recommendation System**  
+An ML-powered system that uses content-based filtering, collaborative filtering, and a hybrid engine to recommend movies. Integrated into a Streamlit dashboard with search, charts, and gradient UI.  
+**Technologies:** Python, Pandas, Scikit-learn, Surprise, Streamlit, Plotly
 
-## 🤖 AI Chat Bot
+**3️⃣ Tic-Tac-Toe AI**  
+A smart game using the Minimax algorithm with Alpha-Beta pruning to create an unbeatable AI. Includes CLI and Streamlit versions with human vs AI and multiplayer modes.  
+**Technologies:** Python, Numpy, Minimax, Streamlit
 
-A simple, rule-based chatbot that can understand and respond to user queries using pattern matching.
+**4️⃣ Face Detection and Recognition**  
+Detects and recognizes faces in uploaded images or webcam feed. Logs detection history with match scores and runs in a blue-themed Streamlit interface.  
+**Technologies:** Python, OpenCV, face_recognition, Haar Cascades, Streamlit
 
-**Features**
-- Greets users and answers FAQs
-- Handles simple conversations
-- Easily extensible via patterns/intents
-
-
----
-
-## 🎬 Recommendation System
-
-### Movie Recommendation System (`Recommendation System/Movie Recommendation System/`)
-
-A content-based movie recommender that suggests similar movies based on your preferences.
-
-**Features**
-- Recommends movies by genres, keywords, or similar attributes
-- User-friendly input and clear output
-- Built with scikit-learn vectorization techniques
----
----
-
-##  Tic-Tac-Toe AI
-An unbeatable AI opponent using the **Minimax algorithm** (with Alpha-Beta pruning) plus a multiplayer mode.  
-Includes both CLI and Streamlit versions.
-
-**Features:**
-- Human vs AI gameplay  
-- Multiplayer mode (Human vs Human)  
-- Win/Draw detection  
-- CLI & Streamlit GUI  
+**5️⃣ Image Captioning AI**  
+An AI-based image captioning system using CNN + LSTM. Extracts image features via ResNet50 and generates human-like captions. Includes a dynamic Streamlit app.  
+**Technologies:** Python, TensorFlow/Keras, ResNet50, LSTM, Tokenizer, Streamlit
 
 ---
 
-## 🤖 Face Detection and Recognition
+## 🚀 Features Across All Projects
 
- An AI application that detects and recognizes faces from uploaded images or live webcam using pre-trained models. It logs match scores, saves detection history, and provides a smooth browser interface using Streamlit.
-
-**Features**
-- Real-time face detection via webcam
-- Upload image support with instant face recognition
-- Recognition based on known faces stored in `known_faces/` folder
-- Match score logging (e.g., “Detected: anurag (Match Score: 0.42)”)
-- Detection logs saved in `detection_log.txt`
-- Tech-themed Streamlit UI with blue background (`faceimg.jpeg`)
-- Supports multiple known users and continuous matching 
-- Easy-to-use interface with reset functionality
- 
-  
-
-**Tools & Technologies:** Python, OpenCV, face_recognition, Haar Cascades, Streamlit  
-
-
-------
-
-## 📦 Deliverables
-
-- **GitHub Repository** with all projects and detailed README
-- **LinkedIn Demo Videos** for each project
-- **Certificate** upon successful completion
+- 🧠 AI and ML-based problem solving  
+- 🎯 Real-world datasets and use cases  
+- 🌐 Interactive web apps built using Streamlit  
+- 📊 Data visualization with Plotly and Matplotlib  
+- 🧩 Modular, clean, and reusable code  
+- 📝 Match score logging, tokenizer reuse, session tracking  
+- 📂 All projects version-controlled with Git & GitHub
 
 ---
 
-## 📬 Connect With Me
+## ✅ Completed Internship Tasks
 
-- **LinkedIn:** [Anurag Pratap Singh](https://www.linkedin.com/in/anurag-pratap-singh)
-- **GitHub:** [Anurag7321-singh](https://github.com/Anurag7321-singh)
-- **Email:** anuragpsingh3135@gmail.com
+- ✔ AI Chat Bot  
+- ✔ Movie Recommendation System  
+- ✔ Tic-Tac-Toe AI  
+- ✔ Face Detection and Recognition  
+- ✔ Image Captioning AI  
 
 ---
 
-#️⃣ #CodSoft #AI #Python #MachineLearning
+## 📌 Deliverables
+
+- Full source code hosted on GitHub  
+- LinkedIn video demos with `#codsoft` and tag `@CodSoft`  
+- Task submission form completed  
+- Internship Completion Certificate  
+
+---
+
+## 🔗 Connect with Me
+
+- **LinkedIn:** [Anurag Pratap Singh](https://www.linkedin.com)  
+- **GitHub:** [Anurag7321-singh](https://github.com/Anurag7321-singh)  
+- **Email:** anuragpsingh3135@gmail.com  
+
+---
+
+⭐ **#CodSoft #AI #Python #MachineLearning #DeepLearning #Streamlit #Internship**
